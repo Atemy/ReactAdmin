@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ReactAdmin/static/css/main.69ed6c99.chunk.css",
+    "main.js": "/ReactAdmin/static/js/main.d32c15d9.chunk.js",
+    "main.js.map": "/ReactAdmin/static/js/main.d32c15d9.chunk.js.map",
+    "runtime-main.js": "/ReactAdmin/static/js/runtime-main.99beab37.js",
+    "runtime-main.js.map": "/ReactAdmin/static/js/runtime-main.99beab37.js.map",
+    "static/js/2.bacce40c.chunk.js": "/ReactAdmin/static/js/2.bacce40c.chunk.js",
+    "static/js/2.bacce40c.chunk.js.map": "/ReactAdmin/static/js/2.bacce40c.chunk.js.map",
+    "static/js/3.7dc8b32d.chunk.js": "/ReactAdmin/static/js/3.7dc8b32d.chunk.js",
+    "static/js/3.7dc8b32d.chunk.js.map": "/ReactAdmin/static/js/3.7dc8b32d.chunk.js.map",
+    "index.html": "/ReactAdmin/index.html",
+    "static/css/main.69ed6c99.chunk.css.map": "/ReactAdmin/static/css/main.69ed6c99.chunk.css.map",
+    "static/js/2.bacce40c.chunk.js.LICENSE.txt": "/ReactAdmin/static/js/2.bacce40c.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/ReactAdmin/static/media/Roboto-Thin.0b337820.woff2",
+    "static/media/logo.dc6bf3c3.svg": "/ReactAdmin/static/media/logo.dc6bf3c3.svg",
+    "static/media/logout_icon.3dfb09ef.svg": "/ReactAdmin/static/media/logout_icon.3dfb09ef.svg",
+    "static/media/question.b1bc28b1.svg": "/ReactAdmin/static/media/question.b1bc28b1.svg",
+    "static/media/user_icon.b35078e2.svg": "/ReactAdmin/static/media/user_icon.b35078e2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99beab37.js",
+    "static/js/2.bacce40c.chunk.js",
+    "static/css/main.69ed6c99.chunk.css",
+    "static/js/main.d32c15d9.chunk.js"
+  ]
+}
