@@ -1,8 +1,10 @@
 import React from "react";
 import {
-  BrowserRouter as Router,
+  //BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
-  Route
+  Route,
+  HashRouter
 } from "react-router-dom";
 
 import AuthPage from 'pages/AuthPage';
@@ -25,48 +27,50 @@ function App() {
   return (
     <main className={styles.main}>
       <Router>
-        <Switch>
-          <Route exact path="/auth">
-            <AuthPage />
-          </Route>
+        <HashRouter basename="/auth">
+          <Switch>
+            <Route exact path="/auth">
+              <AuthPage />
+            </Route>
 
-          <Route path="/main">
-            <MainPage />
-          </Route>
+            <Route path="/main">
+              <MainPage />
+            </Route>
 
-          <Route path="/profile">
-            <ProfilePage />
-          </Route>
+            <Route path="/profile">
+              <ProfilePage />
+            </Route>
 
-          <Route path="/widgets">
-            <WidgetsPage />
-          </Route>
+            <Route path="/widgets">
+              <WidgetsPage />
+            </Route>
 
-          <Route path="/elements">
-            <ElementsPage />
-          </Route>
+            <Route path="/elements">
+              <ElementsPage />
+            </Route>
 
-          <Route path="/effects">
-            <EffectsPage />
-          </Route>
+            <Route path="/effects">
+              <EffectsPage />
+            </Route>
 
-          <Route path="/stat">
-            <StatPage />
-          </Route>
+            <Route path="/stat">
+              <StatPage />
+            </Route>
 
-          <Route path="/help">
-            <HelpPage />
-          </Route>
+            <Route path="/help">
+              <HelpPage />
+            </Route>
 
-          <Route path="/models">
-            <ModelsPage />
-          </Route>
+            <Route path="/models">
+              <ModelsPage />
+            </Route>
 
-          <Route path="/registration">
-            <RegistrationPage />
-          </Route>
+            <Route path="/registration">
+              <RegistrationPage />
+            </Route>
 
-        </Switch>
+          </Switch>
+        </HashRouter>
       </Router>
     </main>
   );
